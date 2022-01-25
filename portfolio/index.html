@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome 사용 -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!-- jquery 사용 -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/nav.css">
+    <link rel="stylesheet" href="./CSS/home.css">
+    <link rel="stylesheet" href="./CSS/about.css">
+    <link rel="stylesheet" href="./CSS/skills.css">
+    <link rel="stylesheet" href="./CSS/mysite.css">
+    <link rel="stylesheet" href="./CSS/contact.css">
+    <link rel="stylesheet" href="./CSS/footer.css">
+    <link rel="stylesheet" href="./CSS/responsive.css">
+    <title>Document</title>
+   
+</head>
+<body>
+
+    <!-- 네이게시션 바 -->
+    <nav class="navbar">
+        <div class="max_width">
+            <div class="logo">
+                <ul class="menubar">
+                    <!-- 맨위 정보-->
+                    <li><a href="#home" class="menu-btn" id="homeID">Home</a></li>
+                    <!-- 자기 소개서 -->
+                    <li><a href="#about" class="menu-btn" id="aboutID">About</a></li>
+                    <!-- 사용한 언어 -->
+                    <li><a href="#skills" class="menu-btn">Skliis</a></li>
+                    <!-- -->
+                    <li><a href="#my-site" class="menu-btn">My Site</a></li>
+                    <!-- 전화와 이메일-->
+                    <li><a href="#contact" class="menu-btn">Contact</a></li>
+                </ul>
+            </div>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 홈 섹션 -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-section">
+                <div class="text-1">Hello! My Name is</div>
+                <div class="text-2">JongJin Park</div>
+                <div class="text-3">내 기술들 <span class="typing1">HTML</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- avout 섹션 -->
+    <section class="about" id="about">
+        <div class="max-width">
+          <h2 class="title">About</h2>
+          <div class="about-content">
+            <div class="left column">
+              <img src="./images/owls.jpg" alt="profile">
+            </div>
+            <div class="right column">
+              <div class="about-text">이름 : 박종진</div>
+              <div class="about-skills">내기술 들<span class="typing2">HTML</span></div>
+              <p><span>태어난 년도 : 1994.03.18 <br>나이 : 29세<br>
+                 학력 : 경기기계공업고등학교 자동화기계 학과 줄업 2013년<br>
+                 수료 내용 : 2020.8 ~ 2021.1 신촌 코리아 아카데미<br>
+                 스마트웹콘텐츠개발&스마트콘텐츠 융합 웹 으용 프로그래밍 개발자 양성 과정 수료 (6개월)<br>
+                 경력 사항 : 2013.7 ~ 2017.7 (주)맥스벨<br>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2019.2 ~ 2020.2 (주)디에스스틸
+                </span></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- skills 섹션-->
+    <section class="skills" id="skills">
+    <div class="max-width">
+        <img src="../images/wlapw.jpg" alt="" width="400px" id="rkdmsep">
+    </div>
+    <div class="max-width">
+        <h2>aid I can do too</h2>
+        <img src="./images/untitled.png" alt="" width="250px" height="150px">
+        <img src="./images/2color-lightbg@2x.png" alt="" width="250px" height="150px">
+        <img src="./images/java.png" alt="" width="300px">
+        <img src="./images/tomcat.png" alt="" height="150px">
+        <img src="./images/visual.PNG" alt="" width="250px" height="150px">
+        <img src="./images/oracle-logo-100645145-primary_idge" alt="">
+    </div>
+    <div class="max-width">
+        <h2>I can do</h2>
+        <img src="./images/html.PNG" alt="" width="200px">
+        <img src="./images/css.PNG" alt="" width="190px">
+        <img src="./images/js.PNG" alt="" width="205px">
+        <img src="./images/jsq.PNG" alt="" width="200px">
+        <img src="./images/oracle-logo.png" alt="" width="200px">
+    </div>
+    </section>
+
+      <!-- my-site 섹션 -->
+    <section class="my-site" id="my-site">
+        <div class="max-width">
+        <h2 class="title">My Site</h2>
+        <div class="my-site-content">
+            <div class="center column">
+                <a href="http://nearbyinc.cafe24.com/">
+                    <div class="site">
+                        <div class="site-images">
+                            <img src="../images/Nearby.png" alt="">
+                            <div class="site-text">NEARBY</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/whdwls8404/NEARBY.git">
+                    <div class="site-text">Github.NEARBY프로젝트</div>
+                </a>
+            </div>
+            <div class="right column">
+                <a href="#">
+                    <div class="site">
+                        <div class="site-images">
+                        <img src="../images/apwal.png" alt="">
+                        <div class="site-text">Portfolio Site</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/whdwls8404/doamp.git">
+                    <div class="site-text">Github.개인포트폴리오</div>
+                </a>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- 컨택트 섹션 -->
+  <section class="contact" id="contact">
+    <div class="max-width">
+      <h2 class="title">Contact Me</h2>
+      <div class="contact-content">
+        <div class="left column">
+          <div class="contact-text">내 정보</div>
+          <div class="icons">
+            <div class="icons-content">
+              <i class="fas fa-user"></i>
+              <div class="info">
+                <div class="head">이름</div>
+                <div class="tail">박종진</div>
+              </div>
+            </div>
+            <div class="icons-content">
+              <i class="fas fa-envelope"></i>
+              <div class="info">
+                <div class="head">E-mail</div>
+                <div class="tail">dmsql8521@naver.com</div>
+              </div>
+            </div>
+            <div class="icons-content">
+              <i class="fas fa-map-marked-alt"></i>
+              <div class="info">
+                <div class="head">주소</div>
+                <div class="tail">서울특별시 동대문구 답십리로 60긾 91-1</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right column">
+          <div class="contact-text">Message me!</div>
+          <form action="#">
+            <div class="fields">
+              <div class="field name">
+                <input type="text" placeholder="Name">
+              </div>
+              <div class="field email">
+                <input type="email" placeholder="E-mail">
+              </div>
+            </div>
+            <div class="field subject">
+              <input type="text" placeholder="Subject">
+            </div>
+            <div class="field content-area">
+              <textarea cols="30" rows="10" placeholder="Content.." required></textarea>
+            </div>
+            <div class="button">
+              <button type="submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- footer 섹션 -->
+    <footer>
+        <span>Created By <a href="#">JongJin Park</a> | <i class="fas fa-copyright"></i>2021 All rights reserved</span>
+    </footer>
+
+    <!-- js -->
+    <script src="./js/script.js"></script>
+    
+</body>
+</html>
